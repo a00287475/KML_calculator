@@ -1,5 +1,4 @@
 package com.example.kml_calculator
-import kotlin.math.sqrt
 
 class Calculator {
     fun add(a: Double, b: Double): Double {
@@ -20,6 +19,6 @@ class Calculator {
     }
 
     fun squareRoot(a: Double): Double {
-        return sqrt(a)
+        return a * a
     }
 }
